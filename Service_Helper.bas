@@ -38,6 +38,7 @@ Sub t1_Tick
 		CheckVaziat
 	If MCode.Vaziat=1 Then
 		SaveTourVisit
+		
 	End If
 	
 End Sub
