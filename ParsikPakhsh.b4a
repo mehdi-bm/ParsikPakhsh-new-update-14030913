@@ -1,0 +1,845 @@
+﻿Build1=Default,ir.parsikhesab.pakhsh
+File1=1.png
+File10=27.png
+File100=l_printmali.bal
+File101=l_printpic.bal
+File102=l_printpic2.bal
+File103=l_profile.bal
+File104=l_rec_factor.bal
+File105=l_rec_factorvisitor.bal
+File106=l_rec_mali.bal
+File107=l_rec_rizcheck.bal
+File108=l_Rec_RizeBargasht.bal
+File109=l_rec_rizfactorvisitor.bal
+File11=Actions-contact-new-icon.png
+File110=l_rec_video.bal
+File111=l_recashkhas.bal
+File112=l_recfaktor.bal
+File113=l_recfaktor_2.bal
+File114=l_rechavale.bal
+File115=l_rechomeitem_2.bal
+File116=l_reckalalisti_2.bal
+File117=l_recnotif.bal
+File118=l_RecRizFactorHavale.bal
+File119=l_recsabadkhariditem_2.bal
+File12=backlist.json
+File120=l_recsearch.bal
+File121=l_repfactorvisitor.bal
+File122=l_reportsoorathesab.bal
+File123=l_reportvisitor.bal
+File124=l_reportvisitor2.bal
+File125=l_repprofile.bal
+File126=L_RepRizeBargasht.bal
+File127=l_repsefareshvisitor.bal
+File128=l_Restore.bal
+File129=L_RizeFactorHavale.bal
+File13=backlist.txt
+File130=l_RizeHavale.bal
+File131=l_rizfaktor.bal
+File132=l_sabadkharid.bal
+File133=l_SabtRizCheck.bal
+File134=l_SaveInfoCompany.bal
+File135=l_savelocation.bal
+File136=l_search_3.bal
+File137=l_selectmantaghe_2.bal
+File138=l_selfactor.bal
+File139=l_senddata.bal
+File14=baner.png
+File140=l_setting.bal
+File141=l_settingPos.bal
+File142=l_show_image.bal
+File143=l_show_image2.bal
+File144=l_ShowListFileBackup.bal
+File145=l_showlocation.bal
+File146=l_Splash.bal
+File147=l_ticket.bal
+File148=l_Video.bal
+File149=l_visitorlocation.bal
+File15=bg-update-parsik-splash.jpg
+File150=l_Wiget1.bal
+File151=l_yesno.bal
+File152=l2.bal
+File153=loading.png
+File154=logo.png
+File155=magnify.png
+File156=mainmenulyr.bal
+File157=menu.png
+File158=menuBK_pic.png
+File159=newmoshtari copy.png
+File16=bnaznnbd.ttf
+File160=p_font.ttf
+File161=parsik_db.db
+File162=payment-card-bank.png
+File163=phonemap.png
+File164=profile.png
+File165=sabtesefaresh copy.png
+File166=senddata copy.png
+File167=share.png
+File168=shopping-cart.png
+File169=smartphone.png
+File17=button4.png
+File170=sort.png
+File171=takforosh.png
+File172=takhfif.png
+File173=takhfif2.png
+File174=toppattern.png
+File175=transform-rotate-180-icon.png
+File176=Truck.png
+File177=updating.jpg
+File18=button5.png
+File19=BYekan+ Bold.ttf
+File2=1616 copy.png
+File20=BYekan+.ttf
+File21=call.png
+File22=chart copy.png
+File23=cinema full.ttf
+File24=description.png
+File25=divider.png
+File26=divider2.png
+File27=getdata copy.png
+File28=gift.png
+File29=Google-Play-icon.png
+File3=1717.png
+File30=groupashkhasmenulyr.bal
+File31=groupkalamenulyr.bal
+File32=header.jpg
+File33=ic_person_white_24dp.png
+File34=ic_shopping_basket_white_24dp.png
+File35=icon.png
+File36=icon-2.png
+File37=iconback.png
+File38=Instagram.png
+File39=Instagram1.png
+File4=2.jpg
+File40=iransans.ttf
+File41=iransans_light.ttf
+File42=IRANSansMobile(FaNum).ttf
+File43=IRANSansMobile(FaNum)_Black.ttf
+File44=IRANSansMobile(FaNum)_Bold.ttf
+File45=IRANSansMobile(FaNum)_Light.ttf
+File46=IRANSansMobile(FaNum)_Medium.ttf
+File47=IRANSansMobile(FaNum)_UltraLight.ttf
+File48=IRANSansMobile.ttf
+File49=IRANSansMobile_Black.ttf
+File5=22.png
+File50=IRANSansMobile_Bold.ttf
+File51=IRANSansMobile_Light.ttf
+File52=IRANSansMobile_Medium.ttf
+File53=IRANSansMobile_UltraLight.ttf
+File54=iransansmonospacednum.ttf
+File55=iransansmonospacednum_black.ttf
+File56=iransansmonospacednum_bold.ttf
+File57=iransansmonospacednum_light.ttf
+File58=iransansmonospacednum_medium.ttf
+File59=iransansmonospacednum_ultralight.ttf
+File6=23.png
+File60=karton.png
+File61=l_backupitem.bal
+File62=l_body.bal
+File63=l_choose_report.bal
+File64=l_ClsRecBackupitem.bal
+File65=l_clv.bal
+File66=l_Daryaftbanki.bal
+File67=l_Daryaftchecki.bal
+File68=l_Daryaftnaghdi.bal
+File69=l_DaryaftTakhfif.bal
+File7=24.png
+File70=l_emza_2.bal
+File71=l_faktor1_havale_type1.bal
+File72=l_faktor1_havale_type2.bal
+File73=l_faktor1_type1.bal
+File74=l_faktor1_type2.bal
+File75=l_faktor2_havale_type1.bal
+File76=l_faktor2_havale_type2.bal
+File77=l_faktor2_type1.bal
+File78=l_faktor2_type2.bal
+File79=l_faktor3_havale_type1.bal
+File8=25.png
+File80=l_faktor3_havale_type2.bal
+File81=l_faktor3_type1.bal
+File82=l_faktor3_type2.bal
+File83=L_HavaleTozie.bal
+File84=l_homebody.bal
+File85=L_ImageSlide.bal
+File86=l_item_home.bal
+File87=l_kaladefault_2.bal
+File88=l_kaladefault_3.bal
+File89=l_kalalisti.bal
+File9=26.png
+File90=l_kalapaging_2.bal
+File91=l_mali.bal
+File92=l_menuitems.bal
+File93=l_moshtarianlocation.bal
+File94=l_newashkhas.bal
+File95=l_newvisit.bal
+File96=l_notif.bal
+File97=l_pagekala_2.bal
+File98=l_pagekala_search.bal
+File99=l_postibani.bal
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup100=Default Group
+FileGroup101=Default Group
+FileGroup102=Default Group
+FileGroup103=Default Group
+FileGroup104=Default Group
+FileGroup105=Default Group
+FileGroup106=Default Group
+FileGroup107=Default Group
+FileGroup108=Default Group
+FileGroup109=Default Group
+FileGroup11=Default Group
+FileGroup110=Default Group
+FileGroup111=Default Group
+FileGroup112=Default Group
+FileGroup113=Default Group
+FileGroup114=Default Group
+FileGroup115=Default Group
+FileGroup116=Default Group
+FileGroup117=Default Group
+FileGroup118=Default Group
+FileGroup119=Default Group
+FileGroup12=Default Group
+FileGroup120=Default Group
+FileGroup121=Default Group
+FileGroup122=Default Group
+FileGroup123=Default Group
+FileGroup124=Default Group
+FileGroup125=Default Group
+FileGroup126=Default Group
+FileGroup127=Default Group
+FileGroup128=Default Group
+FileGroup129=Default Group
+FileGroup13=Default Group
+FileGroup130=Default Group
+FileGroup131=Default Group
+FileGroup132=Default Group
+FileGroup133=Default Group
+FileGroup134=Default Group
+FileGroup135=Default Group
+FileGroup136=Default Group
+FileGroup137=Default Group
+FileGroup138=Default Group
+FileGroup139=Default Group
+FileGroup14=Default Group
+FileGroup140=Default Group
+FileGroup141=Default Group
+FileGroup142=Default Group
+FileGroup143=Default Group
+FileGroup144=Default Group
+FileGroup145=Default Group
+FileGroup146=Default Group
+FileGroup147=Default Group
+FileGroup148=Default Group
+FileGroup149=Default Group
+FileGroup15=Default Group
+FileGroup150=Default Group
+FileGroup151=Default Group
+FileGroup152=Default Group
+FileGroup153=Default Group
+FileGroup154=Default Group
+FileGroup155=Default Group
+FileGroup156=Default Group
+FileGroup157=Default Group
+FileGroup158=Default Group
+FileGroup159=Default Group
+FileGroup16=Default Group
+FileGroup160=Default Group
+FileGroup161=Default Group
+FileGroup162=Default Group
+FileGroup163=Default Group
+FileGroup164=Default Group
+FileGroup165=Default Group
+FileGroup166=Default Group
+FileGroup167=Default Group
+FileGroup168=Default Group
+FileGroup169=Default Group
+FileGroup17=Default Group
+FileGroup170=Default Group
+FileGroup171=Default Group
+FileGroup172=Default Group
+FileGroup173=Default Group
+FileGroup174=images
+FileGroup175=Default Group
+FileGroup176=Default Group
+FileGroup177=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup72=Default Group
+FileGroup73=Default Group
+FileGroup74=Default Group
+FileGroup75=Default Group
+FileGroup76=Default Group
+FileGroup77=Default Group
+FileGroup78=Default Group
+FileGroup79=Default Group
+FileGroup8=Default Group
+FileGroup80=Default Group
+FileGroup81=Default Group
+FileGroup82=Default Group
+FileGroup83=Default Group
+FileGroup84=Default Group
+FileGroup85=Default Group
+FileGroup86=Default Group
+FileGroup87=Default Group
+FileGroup88=Default Group
+FileGroup89=Default Group
+FileGroup9=Default Group
+FileGroup90=Default Group
+FileGroup91=Default Group
+FileGroup92=Default Group
+FileGroup93=Default Group
+FileGroup94=Default Group
+FileGroup95=Default Group
+FileGroup96=Default Group
+FileGroup97=Default Group
+FileGroup98=Default Group
+FileGroup99=Default Group
+Group=Activity
+Library1=abzipunzip
+Library10=bluetoothprinter
+Library11=broadcastreceiver
+Library12=clipboard
+Library13=core
+Library14=dialogs
+Library15=exoplayer
+Library16=firebaseauth
+Library17=fusedlocationprovidergms
+Library18=geolocation
+Library19=googlemaps
+Library2=advancednotification
+Library20=gps
+Library21=hitex_glide
+Library22=hitex_nicespinner
+Library23=hitex_recyclerview
+Library24=ime
+Library25=javaobject
+Library26=jhsicezxing1
+Library27=json
+Library28=manampersiandate
+Library29=msmaterialdrawer
+Library3=amir_iconview
+Library30=network
+Library31=nicespinner
+Library32=okhttputils2
+Library33=pagerbullet
+Library34=pdf
+Library35=pdfrenderer2
+Library36=permissionsmanager
+Library37=persiandate
+Library38=persianmaterialdatetimepicker
+Library39=phone
+Library4=animation
+Library40=picasso
+Library41=pnbroadcastreceiver
+Library42=pnmultiplesharing
+Library43=randomaccessfile
+Library44=reflection
+Library45=richstring
+Library46=runtimepermissions
+Library47=scrollview2d
+Library48=serial
+Library49=slidingmenuwrapper
+Library5=appcompat
+Library50=sql
+Library51=ss_aesencryption
+Library52=stringfunctions
+Library53=stringutils
+Library54=threading
+Library55=webviewextras2
+Library56=xcustomlistview
+Library57=xml2map
+Library58=xmlbuilder
+Library59=xui
+Library6=appupdating
+Library60=xui views
+Library7=asbuttonslider
+Library8=base64encodedecodeimage
+Library9=ble3
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true"~\n~    android:anyDensity="true"~\n~	android:hardwareAccelerated="false"~\n~	/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~AddPermission(android.permission.CALL_PHONE)~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~SetApplicationAttribute(android:usesCleartextTraffic, "true")~\n~AddActivityText(Main,~\n~<intent-filter>~\n~<action android:name="android.intent.action.VIEW" />~\n~<category android:name="android.intent.category.BROWSABLE" />~\n~<category android:name="android.intent.category.DEFAULT" />~\n~<data android:mimeType="image/*" />~\n~<data android:scheme="file" />~\n~</intent-filter>)~\n~'--------------------~\n~~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~<item name="colorPrimary">#5363ff</item>~\n~<item name="colorPrimaryDark">#0039cb</item>~\n~<item name="colorAccent">#9091ff</item>~\n~~\n~~\n~~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~    </style>~\n~</resources>~\n~)~\n~~\n~AddPermission(android.permission.WRITE_EXTERNAL_STORAGE)~\n~~\n~'Firebase~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.FirebaseAnalytics) ~\n~~\n~~\n~AddPermission(android.permission.MANAGE_EXTERNAL_STORAGE)~\n~~\n~   AddManifestText(<uses-permission~\n~	android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~	android:maxSdkVersion="18" />~\n~)~\n~~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~   <external-files-path name="name" path="shared" />~\n~)~\n~~\n~AddApplicationText(~\n~<meta-data~\n~  android:name="com.google.android.geo.API_KEY"~\n~  android:value="AIzaSyC0IOtwAd4KSkXCL0A_hfMIILCIb3qF_1U"/>~\n~)~\n~~\n~AddApplicationText(~\n~<uses-library~\n~      android:name="org.apache.http.legacy"~\n~      android:required="false" />~\n~)~\n~~\n~'updating new~\n~AddReceiverText(newinst2,~\n~<intent-filter>~\n~<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />~\n~</intent-filter>)~\n~~\n~' Starting from Android 7 (API 24) we pass a file uri using a FileProvider~\n~'AddApplicationText(~\n~'  <provider~\n~'  android:name="android.support.v4.content.FileProvider"~\n~'  android:authorities="$PACKAGE$.provider"~\n~'  android:exported="false"~\n~'  android:grantUriPermissions="true">~\n~'  <meta-data~\n~'  android:name="android.support.FILE_PROVIDER_PATHS"~\n~'  android:resource="@xml/provider_paths"/>~\n~'  </provider>~\n~')~\n~'~\n~''new external-files-path ensures compatibility with NB6~\n~'CreateResource(xml, provider_paths,~\n~'<paths>~\n~'   <files-path name="name" path="shared" />~\n~'   <external-files-path name="name1" path="shared1" />~\n~'</paths>~\n~')~\n~~\n~AddApplicationText(~\n~<provider~\n~android:name="igolub.permissionmanager.b4a.PMFileProvider"~\n~android:authorities="$PACKAGE$.provider"~\n~android:exported="false"~\n~android:grantUriPermissions="true">~\n~<meta-data~\n~android:name="android.support.FILE_PROVIDER_PATHS"~\n~android:resource="@xml/provider_paths"/>~\n~</provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~<files-path name="name" path="shared" />~\n~)~\n~~\n~AddManifestText(<uses-permission~\n~    android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~    android:maxSdkVersion="19" />~\n~)~\n~~\n~AddPermission(android.permission.REQUEST_INSTALL_PACKAGES)~\n~AddPermission(android.permission.INTERNET)~\n~~\n~'gps~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~AddApplicationText(<meta-data~\n~    android:name="com.google.android.gms.version"~\n~    android:value="@integer/google_play_services_version" />)~\n~~\n~''barcode~\n~AddApplicationText(<activity android:name="ice.zxing.CaptureActivity"~\n~         android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"~\n~         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"~\n~         android:windowSoftInputMode="stateAlwaysHidden">~\n~      </activity>)~\n~	  ~\n~	  AddManifestText(<uses-feature android:name="android.hardware.location.gps"/>)~\n~	  ~\n~SetServiceAttribute(Tracker, android:foregroundServiceType, "location")~\n~~\n~AddPermission(android.permission.RECEIVE_BOOT_COMPLETED)~\n~AddReceiverText(MyReceiver, <intent-filter>~\n~<action android:name="android.intent.action.BOOT_COMPLETED"/>~\n~</intent-filter>)~\n~	
+Module1=Act_Choose_Report
+Module10=Act_LocationVisitor
+Module100=SignatureCapture
+Module101=Starter
+Module102=Table
+Module103=Tracker
+Module104=Wiget_Service
+Module105=XmlViewEx
+Module11=Act_Main
+Module12=Act_Mali
+Module13=Act_Moshtarian
+Module14=Act_NewAshkhas
+Module15=Act_Notif
+Module16=Act_PrintMali
+Module17=Act_PrintPic
+Module18=Act_PrintPic2
+Module19=Act_Profile
+Module2=Act_Emza
+Module20=Act_RepFactors
+Module21=Act_RepFactorVisitor
+Module22=Act_ReportRizeBargasht
+Module23=Act_ReportSoorathesab
+Module24=Act_ReportVisitor
+Module25=Act_ReportVisitor2
+Module26=Act_RepRizFactorVisitor
+Module27=Act_Restore
+Module28=Act_RizeFactorHavale
+Module29=Act_RizFaktor
+Module3=Act_HavaleTozie
+Module30=Act_RizHavale
+Module31=Act_Sabad
+Module32=Act_SabtMarjooii
+Module33=Act_SabtRizCheck
+Module34=Act_SaveInfoCompany
+Module35=Act_SaveLocation
+Module36=Act_Search
+Module37=Act_SelectMantage
+Module38=Act_SelFaktor
+Module39=Act_SendData
+Module4=Act_ImageSlideShow
+Module40=Act_Setting
+Module41=Act_SettingPos
+Module42=Act_ShowLocation
+Module43=Act_Support
+Module44=Act_Ticket
+Module45=Act_Video
+Module46=B4XMainPage
+Module47=cls_Factor1_Type2
+Module48=cls_Factor2_Type2
+Module49=cls_Factor3_Type2
+Module5=Act_Kala_listi
+Module50=cls_Faktor1_Havale_Type1
+Module51=cls_Faktor1_Havale_Type2
+Module52=cls_Faktor1_Type1
+Module53=cls_Faktor2_Havale_Type1
+Module54=cls_Faktor2_Havale_Type2
+Module55=cls_Faktor2_Type1
+Module56=cls_Faktor3_Havale_Type1
+Module57=cls_Faktor3_Havale_Type2
+Module58=cls_Faktor3_Type1
+Module59=cls_ImageSlideShow
+Module6=Act_KalaDefault
+Module60=cls_Item_Home
+Module61=cls_KalaPaging
+Module62=cls_kalaPaging2
+Module63=cls_pos
+Module64=cls_PrintMali
+Module65=Cls_Rec_Factor
+Module66=Cls_Rec_FactorVisitor
+Module67=Cls_Rec_Havale
+Module68=cls_Rec_Mali
+Module69=Cls_Rec_RestorFileItem
+Module7=Act_KalaPaging
+Module70=cls_rec_rizbargasht
+Module71=Cls_Rec_RizFactorVisitor
+Module72=Cls_Rec_Video
+Module73=cls_RecAshkhas
+Module74=cls_RecBackupItem
+Module75=CLs_RecDefultKala
+Module76=cls_RecFakor
+Module77=cls_RecFaktor
+Module78=Cls_RecKalaListi
+Module79=cls_RecNotif
+Module8=Act_KalaPaging2
+Module80=cls_RecSabadKharidItem
+Module81=cls_RizCheck
+Module82=Cls_RizHavale
+Module83=cls_Search
+Module84=Cls_SubMenu1
+Module85=ClsKala
+Module86=DBUtils
+Module87=FirebaseMessaging
+Module88=FusedLocationService
+Module89=GeoService
+Module9=Act_LocationMoshtarian
+Module90=GpsWiget
+Module91=ImageDownloader
+Module92=MCode
+Module93=MDatabase
+Module94=myCode
+Module95=MyReceiver
+Module96=Service_Gps
+Module97=Service_Helper
+Module98=Service_Notification
+Module99=Service_Server
+NumberOfFiles=177
+NumberOfLibraries=60
+NumberOfModules=105
+Version=13
+@EndOfDesignText@
+   #Region  Project Attributes 
+	#ApplicationLabel: سفارشگیر آنلاین پارسیک
+	#VersionCode: 130
+	#VersionName: 1.58
+	'SupportedOrientations possible values: unspecified, landscape or portrait.14030815 -tour visitor
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	#AdditionalJar: com.android.support:support-v4
+	#Extends: android.support.v7.app.AppCompatActivity
+	'#AdditionalJar:android-support-v7-recyclerview.jar
+	#AdditionalJar: com.google.android.gms:play-services-location
+	#AdditionalRes:..\res
+	#AdditionalJar: com.google.android.gms:play-services-maps
+	#AdditionalRes: ..\res_slider, com.daimajia.slider.library
+	#AdditionalRes: ..\res_bullet
+	#AdditionalRes: ..\resNiceSpiner
+	#AdditionalRes: ..\res_pdate
+	#AdditionalRes: ..\md-app\res
+	#AdditionalRes: ..\md-lib\res
+	#BridgeLogger: True
+	#MultiDex:True
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	Dim T_Gif As Timer
+
+	Private rp As RuntimePermissions
+	Dim PM As PermissionsManager
+End Sub
+
+Sub Globals
+	'Dim Glide As Hitex_Glide
+	Private ImgGif As ImageView
+	Private lblTitle As Label
+	Private lblVer As Label
+	Private pnlLogo As Panel
+	Private pnlTitle As Panel
+	Private pnlVer As Panel
+	Private nativeMe As JavaObject
+	'Dim pos As posprint
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	
+	Activity.LoadLayout("l_Splash")
+	lblTitle.Text=Application.LabelName
+	lblVer.Text="نسخه "&Application.VersionName
+	nativeMe.InitializeContext
+	nativeMe.RunMethod("setDefaultUncaughtExceptionHandler", Null)
+	Dim i As Intent
+	i = Activity.GetStartingIntent
+	If i.HasExtra("Crash") Then
+		Log("After crash: " & i.GetExtra("Crash"))
+	End If
+	If FirstTime Then
+		Log("Hello")
+	End If
+End Sub
+
+Sub PermissionActive1
+	Dim r As Reflector
+	Dim Api As Int
+	Api = r.GetStaticField("android.os.Build$VERSION", "SDK_INT")
+	If Api >= 30 Then
+		PM.CheckAndRequestPermission(PermissionsManager.SPECIAL_MANAGE_EXTERNAL_STORAGE)
+	Else
+		rp.CheckAndRequest(rp.PERMISSION_WRITE_EXTERNAL_STORAGE)
+	End If
+
+	Wait For Activity_PermissonResult (Permission As String,Result As Boolean)
+End Sub
+Sub PermissionActive2
+	rp.CheckAndRequest(rp.PERMISSION_READ_PHONE_STATE)
+	Wait For Activity_PermissonResult (Permission As String,Result As Boolean)
+End Sub
+Sub PermissionActive3
+	rp.CheckAndRequest(rp.PERMISSION_ACCESS_FINE_LOCATION)
+	Wait For Activity_PermissonResult (Permission As String,Result As Boolean)
+End Sub
+Sub PermissionActive4
+	rp.CheckAndRequest(rp.PERMISSION_CALL_PHONE)
+	Wait For Activity_PermissonResult (Permission As String,Result As Boolean)
+End Sub
+Sub PermissionActive5
+	rp.CheckAndRequest(rp.PERMISSION_ACCESS_COARSE_LOCATION)
+	Wait For Activity_PermissonResult (Permission As String,Result As Boolean)
+End Sub
+
+
+
+Sub Activity_PermissionResult (Permission As String, Result As Boolean)
+	Dim r As Reflector
+	Dim Api As Int
+	Api = r.GetStaticField("android.os.Build$VERSION", "SDK_INT")
+	rp.GetSafeDirDefaultExternal("Parsik")
+	If Api >= 30 Then
+		If Permission = PermissionsManager.SPECIAL_MANAGE_EXTERNAL_STORAGE Then
+			Log(Result)
+			PermissionActive2
+		End If
+	Else
+		If Permission = rp.PERMISSION_WRITE_EXTERNAL_STORAGE Then
+			Log(Result)
+			PermissionActive2
+		End If
+	End If
+
+	If Permission = rp.PERMISSION_READ_PHONE_STATE Then
+		Log(Result)
+		PermissionActive3
+	End If
+	If Permission= rp.PERMISSION_ACCESS_FINE_LOCATION Then
+		Log(Result)
+'		GeoService.PermissionOK= Result 
+				
+		PermissionActive4
+	End If
+	If Permission= rp.PERMISSION_CALL_PHONE Then
+		Log(Result)
+		PermissionActive5
+	End If
+	If Permission = rp.PERMISSION_ACCESS_COARSE_LOCATION Then
+		Log(Result)
+		Try
+		
+			T_Gif.Initialize("T_Gif",3000)
+			ShowSplash
+		Catch
+			Log(LastException)
+			myCode.SendError(LastException,Activity.Title&"-Activity_PermissionResult")
+		End Try
+	End If
+End Sub
+Sub ShowSplash
+	Try
+		MCode.Initialize
+		MCode.UpdateDataBase
+'	MCode.UpdateSetting
+		'If MCode.IsConnected Then
+		'LoadPage
+		'Else
+		T_Gif.Enabled=True
+		'End If
+		
+	
+	
+
+
+	Catch
+		Log(LastException)
+		myCode.SendError(LastException,Activity.Title&"-ShowSplash")
+	End Try
+End Sub
+
+Sub T_Gif_Tick
+	T_Gif.Enabled=False
+	'LoadPage
+	StartActivity(Act_Main)
+	Activity.Finish
+End Sub
+
+
+
+
+
+Sub Activity_Resume
+'	For Each v As View In Activity.GetAllViewsRecursive
+'		If v.Tag Is B4XLoadingIndicator And v.Visible = True Then
+'			Dim x As B4XLoadingIndicator = v.Tag
+'			x.Show
+'		End If
+'	Next
+	PermissionActive1
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean 'Return True to consume the event
+	Return True
+End Sub
+
+
+Sub LoadPage
+	Try
+		'CheckVaziat
+		Dim Id As String
+		Id=MCode.GetDeviceId
+		If Id = "" Then
+			Wait For (GetAdvertisingId) Complete (Id As String)
+			'Id="162eea36-b3b8-480b-b466-d91e50764284 "
+			Log(MCode.GetApiVersion)
+			MCode.DeviceId=Id
+			Log(Id)
+		Else
+			Log(Id)
+			MCode.DeviceId=Id
+		End If
+		If MCode.Gps=1 Then
+'			Wait For (CheckAndRequestNotificationPermission) Complete (HasPermission As Boolean)
+'			If HasPermission = False Then
+'				Log("no permission")
+'				ToastMessageShow("no permission", True)
+'				Return
+'			End If
+			Starter.rp.CheckAndRequest(Starter.rp.PERMISSION_ACCESS_FINE_LOCATION)
+			Wait For Activity_PermissionResult (Permission As String, Result As Boolean)
+			If Result Then
+'				StartService(GeoService)
+			Else
+				ToastMessageShow("No permission...", True)
+			End If
+		End If
+		StartActivity(Act_Main)
+		Activity.Finish
+	Catch
+		Log(LastException)
+		myCode.SendError(LastException,Activity.Title&"-LoadPage")
+	End Try
+End Sub
+Sub CheckVaziat
+	If MCode.IsConnected Then
+		If MCode.CodeMoshtari=0 Then
+			Dim Query As String="Update TblSetting Set FldVaziat = '0'"
+			MCode.SaveUpdate(Query)
+			'ToastMessageShow("نرم افزار شما غیر فعال میباشد",True)
+			MCode.Vaziat=0
+		End If
+
+		MCode.NoeGet="GetVaziat"
+		StartService(Service_Server)
+	Else
+			
+	End If
+
+	'Sleep(300)
+End Sub
+Private Sub GetAdvertisingId As ResumableSub
+	Dim jo As JavaObject = Me
+	jo.RunMethod("GetAdvertisingId", Null)
+	Wait For AdvertisingId_Ready (Success As Boolean, Id As String)
+	Return Id
+End Sub
+
+'Sub Application_Error (Error As Exception, StackTrace As String) As Boolean
+'	'MCode.ScheduleRestartCrashedActivity(DateTime.Now + 300, "Main", Error)
+'	Return True
+'End Sub
+
+'Private Sub CheckAndRequestNotificationPermission As ResumableSub
+'	Dim p As Phone
+'	If p.SdkVersion < 33 Then Return True
+'	Dim ctxt As JavaObject
+'	ctxt.InitializeContext
+'	Dim targetSdkVersion As Int = ctxt.RunMethodJO("getApplicationInfo", Null).GetField("targetSdkVersion")
+'	If targetSdkVersion < 33 Then Return True
+'	Dim NotificationsManager As JavaObject = ctxt.RunMethod("getSystemService", Array("notification"))
+'	Dim NotificationsEnabled As Boolean = NotificationsManager.RunMethod("areNotificationsEnabled", Null)
+'	If NotificationsEnabled Then Return True
+'	Dim rp As RuntimePermissions
+'	rp.CheckAndRequest(rp.PERMISSION_POST_NOTIFICATIONS)
+'	Wait For Activity_PermissionResult (Permission As String, Result As Boolean) 'change to B4XPage_PermissionResult if B4XPages project
+'	Log(Permission & ": " & Result)
+'	Return Result
+'End Sub
+#if Java
+import java.util.concurrent.Callable;
+import com.google.android.gms.ads.identifier.AdvertisingIdClient;
+import com.google.android.gms.ads.identifier.AdvertisingIdClient.Info;
+
+public static void GetAdvertisingId() {
+   BA.runAsync(processBA, mostCurrent, "advertisingid_ready", new Object[] {false, ""}
+       , new Callable<Object[]>() {
+                   @Override
+                   public Object[] call() throws Exception {
+                       String id = AdvertisingIdClient.getAdvertisingIdInfo(mostCurrent).getId();
+                       return new Object[] {true, id};
+                   }
+               }); }
+#End If
+
+
+
+
+#if Java
+//Sources:
+//http://medium.com/@ssaurel/how-to-auto-restart-an-android-application-after-a-crash-or-a-force-close-error-1a361677c0ce
+//http://stackoverflow.com/a/2903866
+//http://mobikul.com/auto-restart-application-crashforce-close-android/
+
+public void setDefaultUncaughtExceptionHandler() {
+   
+   Thread.setDefaultUncaughtExceptionHandler(new MyExceptionHandler(this));
+}
+
+import android.app.Activity;
+
+public class MyExceptionHandler implements Thread.UncaughtExceptionHandler {
+
+  private Activity activity;
+
+  public MyExceptionHandler(Activity a) {
+    activity = a;
+  }
+
+  @Override
+  public void uncaughtException(Thread thread, Throwable ex) {
+    activity.finish();
+    System.exit(2);
+  }
+}
+#End if

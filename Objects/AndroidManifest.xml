@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ir.parsikhesab.pakhsh"
+	android:versionCode="130"
+	android:versionName="1.58"
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="34"/>
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true"
+	    android:anyDensity="true"
+		android:hardwareAccelerated="false"
+		/>
+	<uses-permission
+		android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+		android:maxSdkVersion="18" />
+	<uses-permission
+	    android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+	    android:maxSdkVersion="19" />
+	<uses-feature android:name="android.hardware.location.gps"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="ir.parsikhesab.pakhsh.permission.MAPS_RECEIVE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.hardware.camera"/>
+	<uses-permission android:name="android.hardware.camera.autofocus"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+	<application
+		android:name="androidx.multidex.MultiDexApplication"
+		android:icon="@drawable/icon"
+		android:label="سفارشگیر آنلاین پارسیک"
+		android:theme="@style/MyAppTheme"
+		android:usesCleartextTraffic="true">
+		
+		<activity android:name="com.google.android.gms.common.api.GoogleApiActivity"
+		  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+		  android:exported="false"/>
+		    <meta-data
+		  android:name="com.google.android.gms.version"
+		  android:value="@integer/google_play_services_version" />
+		<provider
+		  android:name="androidx.core.content.FileProvider"
+		  android:authorities="ir.parsikhesab.pakhsh.provider"
+		  android:exported="false"
+		  android:grantUriPermissions="true">
+		  <meta-data
+		  android:name="android.support.FILE_PROVIDER_PATHS"
+		  android:resource="@xml/provider_paths"/>
+		  </provider>
+		<meta-data
+		  android:name="com.google.android.geo.API_KEY"
+		  android:value="AIzaSyC0IOtwAd4KSkXCL0A_hfMIILCIb3qF_1U"/>
+		<uses-library
+		      android:name="org.apache.http.legacy"
+		      android:required="false" />
+		<provider
+		android:name="igolub.permissionmanager.b4a.PMFileProvider"
+		android:authorities="ir.parsikhesab.pakhsh.provider"
+		android:exported="false"
+		android:grantUriPermissions="true">
+		<meta-data
+		android:name="android.support.FILE_PROVIDER_PATHS"
+		android:resource="@xml/provider_paths"/>
+		</provider>
+		<meta-data
+		    android:name="com.google.android.gms.version"
+		    android:value="@integer/google_play_services_version" />
+		<activity android:name="ice.zxing.CaptureActivity"
+		         android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+		         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+		         android:windowSoftInputMode="stateAlwaysHidden">
+		      </activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+			<intent-filter>
+			<action android:name="android.intent.action.VIEW" />
+			<category android:name="android.intent.category.BROWSABLE" />
+			<category android:name="android.intent.category.DEFAULT" />
+			<data android:mimeType="image/*" />
+			<data android:scheme="file" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_main"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".service_server"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".service_server$service_server_BR"
+			android:exported="true">
+		</receiver>
+		<receiver
+			android:name=".gpswiget"
+			android:exported="true"
+			android:label="ParsikGps Widget">
+			<intent-filter>
+			<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+			android:resource="@xml/gpswiget_info" />
+			
+		</receiver>
+		<service
+			android:name=".fusedlocationservice"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".fusedlocationservice$fusedlocationservice_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<service
+			android:name=".service_helper"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".service_helper$service_helper_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_selectmantage"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_reprizfactorvisitor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_choose_report"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_emza"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_havaletozie"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_imageslideshow"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_kala_listi"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_kaladefault"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_kalapaging"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_kalapaging2"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_locationmoshtarian"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_locationvisitor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_mali"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_moshtarian"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_newashkhas"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_notif"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_printmali"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_printpic"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_printpic2"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_profile"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_repfactors"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_repfactorvisitor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_reportrizebargasht"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_reportsoorathesab"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_reportvisitor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_reportvisitor2"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_restore"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_rizefactorhavale"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_rizfaktor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_rizhavale"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_sabad"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_sabtmarjooii"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_sabtrizcheck"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_saveinfocompany"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_savelocation"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_search"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_selfaktor"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_senddata"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_setting"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_settingpos"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_showlocation"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_support"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_ticket"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".act_video"
+			android:label="سفارشگیر آنلاین پارسیک"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".firebasemessaging"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".firebasemessaging$firebasemessaging_BR"
+			android:exported="true">
+		</receiver>
+		<service
+			android:name=".geoservice"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".geoservice$geoservice_BR"
+			android:exported="true">
+		</receiver>
+		<service
+			android:name=".imagedownloader"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".imagedownloader$imagedownloader_BR"
+			android:exported="true">
+		</receiver>
+		<receiver
+			android:name=".myreceiver"
+			android:exported="true">
+			
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<service
+			android:name=".service_gps"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".service_gps$service_gps_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<service
+			android:name=".service_notification"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".service_notification$service_notification_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<service
+			android:name=".starter"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".starter$starter_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<service
+			android:name=".tracker"
+			android:exported="true"
+			android:foregroundServiceType="location">
+		</service>
+		<receiver
+			android:name=".tracker$tracker_BR"
+			android:exported="true">
+			<intent-filter>
+			<action android:name="android.intent.action.BOOT_COMPLETED"/>
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name=".wiget_service"
+			android:exported="true">
+		</receiver>
+		<service
+			android:name=".newinst2"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".newinst2$newinst2_BR"
+			android:exported="true">
+			
+			<intent-filter>
+			<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+			</intent-filter>
+		</receiver>
+		<receiver
+			android:name=".httputils2service"
+			android:exported="true">
+		</receiver>
+	</application>
+</manifest>
