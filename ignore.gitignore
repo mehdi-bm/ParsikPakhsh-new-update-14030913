@@ -5,3 +5,5 @@ src/
 *.apk
 *.dex
 *b4a.meta
+*.meta
+AutoBackups/
